@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Alert,
 } from "react-native";
-import { useDisplaySettings } from "@/contexts/DisplaySettingsContext";
+import { useDisplaySettings } from "../../contexts/DisplaySettingsContext";
 
 export default function SettingsScreen() {
   const { colors, isDarkMode, largeText, setIsDarkMode, setLargeText, textScale } =

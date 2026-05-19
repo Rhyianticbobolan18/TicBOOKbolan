@@ -1,4 +1,4 @@
-import { useDisplaySettings } from "@/contexts/DisplaySettingsContext";
+import { useDisplaySettings } from "../../contexts/DisplaySettingsContext";
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 

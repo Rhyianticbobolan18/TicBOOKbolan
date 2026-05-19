@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import type { ImageSourcePropType } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { useDisplaySettings } from "@/contexts/DisplaySettingsContext";
+import { useDisplaySettings } from "../contexts/DisplaySettingsContext";
 
 // Props exactly as you had them
 type BookCardProps = {

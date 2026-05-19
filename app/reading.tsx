@@ -1,5 +1,5 @@
-import { getBookById, getChapterById } from "@/constants/books";
-import { useDisplaySettings } from "@/contexts/DisplaySettingsContext";
+import { getBookById, getChapterById } from "../constants/books";
+import { useDisplaySettings } from "../contexts/DisplaySettingsContext";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import React, { useEffect, useRef, useState } from "react";
 import {

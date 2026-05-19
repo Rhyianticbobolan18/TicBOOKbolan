@@ -1,10 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, View, ScrollView } from "react-native";
 import { useRouter } from "expo-router";
-import BookCard from "@/components/BookCard";
-import { books } from "@/constants/books";
-import { useDisplaySettings } from "@/contexts/DisplaySettingsContext";
-import { useFavorites } from "@/contexts/FavoritesContext";
+import BookCard from "../../components/BookCard";
+import { books } from "../../constants/books";
+import { useDisplaySettings } from "../../contexts/DisplaySettingsContext";
+import { useFavorites } from "../../contexts/FavoritesContext";
 
 export default function FavoritesScreen() {
   const router = useRouter();

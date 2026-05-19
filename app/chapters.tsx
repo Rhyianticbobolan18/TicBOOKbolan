@@ -1,8 +1,8 @@
 import React from "react";
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
-import { getBookById } from "@/constants/books";
-import { useDisplaySettings } from "@/contexts/DisplaySettingsContext";
+import { getBookById } from "../constants/books";
+import { useDisplaySettings } from "../contexts/DisplaySettingsContext";
 
 export default function ChaptersScreen() {
   const router = useRouter();

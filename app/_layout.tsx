@@ -4,8 +4,8 @@ import { Stack } from "expo-router";
 import {
   DisplaySettingsProvider,
   useDisplaySettings,
-} from "@/contexts/DisplaySettingsContext";
-import { FavoritesProvider } from "@/contexts/FavoritesContext";
+} from "../contexts/DisplaySettingsContext";
+import { FavoritesProvider } from "../contexts/FavoritesContext";
 
 // ✅ Splash Screen Logo
 const splashLogo = {

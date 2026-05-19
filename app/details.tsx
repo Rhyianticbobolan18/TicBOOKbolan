@@ -9,9 +9,9 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
-import { getBookById } from "@/constants/books";
-import { useDisplaySettings } from "@/contexts/DisplaySettingsContext";
-import { useFavorites } from "@/contexts/FavoritesContext";
+import { getBookById } from "../constants/books";
+import { useDisplaySettings } from "../contexts/DisplaySettingsContext";
+import { useFavorites } from "../contexts/FavoritesContext";
 
 export default function DetailsScreen() {
   const router = useRouter();
