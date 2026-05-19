@@ -8,7 +8,9 @@ import {
 import { FavoritesProvider } from "@/contexts/FavoritesContext";
 
 // ✅ Splash Screen Logo
-const splashLogo = require("../assets/logo/splashscreenlogo.png");
+const splashLogo = {
+  uri: "https://raw.githubusercontent.com/Rhyianticbobolan18/TicBOOKbolan/12616bb4ab958603d2cc650c8cf75b50d7d8f337/assets/logo/splashscreenlogo.png",
+};
 
 export default function RootLayout() {
   return (

@@ -19,7 +19,9 @@ const CARD_WIDTH = (width - 60) / 2;
 const CARD_GAP = 15;
 
 // ✅ ONLY Home Screen Logo
-const homeLibraryLogo = require("../../assets/logo/homelibrarylogo.png");
+const homeLibraryLogo = {
+  uri: "https://raw.githubusercontent.com/Rhyianticbobolan18/TicBOOKbolan/12616bb4ab958603d2cc650c8cf75b50d7d8f337/assets/logo/homelibrarylogo.png",
+};
 
 // Custom scrollbar layout rules
 const SCROLLBAR_TRACK_WIDTH = 100;

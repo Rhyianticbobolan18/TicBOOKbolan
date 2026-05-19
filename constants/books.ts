@@ -1,5 +1,8 @@
 import type { ImageSourcePropType } from "react-native";
 
+const ASSET_BASE =
+  "https://raw.githubusercontent.com/Rhyianticbobolan18/TicBOOKbolan/12616bb4ab958603d2cc650c8cf75b50d7d8f337";
+
 export type Book = {
   id: string;
   title: string;
@@ -22,7 +25,9 @@ export const books: Book[] = [
     title: "The Whispering Woods",
     author: "Akash Sonawane",
     genre: "Dark Fantasy Adventure",
-    cover: require("../assets/images/bookcovers/thewhisperingwoods.png"),
+    cover: {
+      uri: `${ASSET_BASE}/assets/images/bookcovers/thewhisperingwoods.png`,
+    },
     description:
       "Deep within the forgotten forests of Eldergrove lies the TicBOOK, an ancient artifact capable of bringing stories to life. When young librarian Elias Thorne discovers whispers hidden between its pages, he is drawn into a dangerous journey through cursed woods, living maps, and secrets buried beneath centuries of silence.",
     chapters: [
@@ -57,7 +62,9 @@ export const books: Book[] = [
   title: "The Midnight Library",
   author: "Matt Haig",
   genre: "Philosophical Fiction",
-  cover: require("../assets/images/bookcovers/themidnightlibrary.png"),
+  cover: {
+    uri: `${ASSET_BASE}/assets/images/bookcovers/themidnightlibrary.png`,
+  },
   description:
     "Between life and death exists a library filled with infinite possibilities. Every shelf contains a version of life shaped by different choices, and every page asks the same haunting question: what makes a life truly worth living?",
   chapters: [
@@ -93,7 +100,9 @@ export const books: Book[] = [
   title: "Shadow of the Wind",
   author: "Carlos Ruiz Zafon",
   genre: "Gothic Mystery Thriller",
-  cover: require("../assets/images/bookcovers/shadowofthewind.png"),
+  cover: {
+    uri: `${ASSET_BASE}/assets/images/bookcovers/shadowofthewind.png`,
+  },
   description:
     "In the hidden corners of a rain-soaked city, a forgotten novel draws a young reader into a labyrinth of secrets, vanished authors, and dangerous truths buried beneath decades of silence.",
   chapters: [
@@ -129,7 +138,9 @@ export const books: Book[] = [
   title: "The Great Gatsby",
   author: "F. Scott Fitzgerald",
   genre: "Classic Literary Drama",
-  cover: require("../assets/images/bookcovers/thegreatgatsby.png"),
+  cover: {
+    uri: `${ASSET_BASE}/assets/images/bookcovers/thegreatgatsby.png`,
+  },
   description:
     "On the glittering shores of Long Island, wealth and illusion intertwine beneath endless parties and fading dreams. Behind the music and champagne lies a story of longing, obsession, and the impossible pursuit of the past.",
   chapters: [
@@ -165,7 +176,9 @@ export const books: Book[] = [
   title: "1984",
   author: "George Orwell",
   genre: "Political Dystopian Sci-Fi",
-  cover: require("../assets/images/bookcovers/1984.png"),
+  cover: {
+    uri: `${ASSET_BASE}/assets/images/bookcovers/1984.png`,
+  },
   description:
     "In a society ruled by surveillance and fear, truth is rewritten daily and independent thought is treated as rebellion. One man’s quiet act of defiance begins a dangerous struggle against a world where even memories can no longer be trusted.",
   chapters: [
